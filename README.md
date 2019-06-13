@@ -10,7 +10,7 @@ install_fw_nanohs_for_rpi.sh :Only adapted to nano_hotSPOT for raspberry pi
 
 cd /tmp
 
-curl -OL https://raw.github.com/VR2VYE/MMDVM_HS_firmware/master/install_fw_duplex.sh
+curl -OL https://raw.github.com/applepeng/MMDVM_FW/master/install_fw_duplex.sh
 
 make the script executable:
 
