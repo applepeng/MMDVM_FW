@@ -17,13 +17,13 @@
 #   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 # Configure latest version
-FW_VERSION="v1.4.16"
+FW_VERSION="v1.4.17"
 
 # Change USB-serial port name ONLY in macOS
 MAC_DEV_USB_SER="/dev/cu.usbmodem14401"
 	
 # Download latest firmware for MMDVM_DUPLEX
-curl -OL https://github.com/VR2VYE/MMDVM_HS_firmware/releases/download/$FW_VERSION/mmdvm_duplex_fw.bin
+curl -OL https://github.com/applepeng/MMDVM_FW/releases/download/$FW_VERSION/mmdvm_duplex_fw.bin
 
 # Download STM32F10X_Lib (only for binary tools)
 if [ ! -d "./STM32F10X_Lib/utils" ]; then
